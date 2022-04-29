@@ -1,0 +1,16 @@
+# folders
+.idea/
+HAL/
+out/
+EndoData/
+SproutingAssayData/
+
+# .jar files
+HalColorSchemes.jar
+
+# .java
+System3D.java
+
+# iml
+AngiogenesisModel.iml
+*.iml
