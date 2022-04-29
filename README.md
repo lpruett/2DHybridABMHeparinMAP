@@ -11,9 +11,10 @@ Phone number: 434-982-6269<br>
 
 <b>Summary:</b> <br>
 A hybrid agent-based model was developed to simulate endothelial cell migration from a spheroid in a MAP scaffold with heparin microislands. 
-The goal of this model is to optimize the raio of heparin microislands in a MAP scaffold to promote angiogenesis. 
-Heparin microislands in the MAP scaffold were first described here: 
-Pruett, L. J., Jenkins, C. H., Singh, N. S., Catallo, K. J., Griffin, D. R., Heparin Microislands in Microporous Annealed Particle Scaffolds for Accelerated Diabetic Wound Healing. Adv. Funct. Mater. 2021, 31, 2104337. https://doi.org/10.1002/adfm.202104337
+The goal of this model is to optimize the ratio of heparin microislands in a MAP scaffold to promote angiogenesis. 
+Heparin microislands in the MAP scaffold were first described here: <br><br>
+Pruett, L. J., Jenkins, C. H., Singh, N. S., Catallo, K. J., Griffin, D. R., Heparin Microislands in Microporous 
+Annealed Particle Scaffolds for Accelerated Diabetic Wound Healing. Adv. Funct. Mater. 2021, 31, 2104337. https://doi.org/10.1002/adfm.202104337
 
 To start using this model, complete installation and setup.
 
