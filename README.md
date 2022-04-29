@@ -24,28 +24,28 @@ To start using this model, complete installation and setup.
 4) To clone this repository, click on the green "Code" button then select "Open with GitHub Desktop".  You GitHub Desktop will open.  If your browser asks for permissions, allow them.
 5) Once GitHub Desktop opens, edit the Local Path to where you would like the library will be installed on your computer. It will be in a file called "HAL-master". _Remember this location for set-up_.
 6) Click "Clone". This will install HAL's library on your computer in your specified location.
-7) Navigate to this model's repository at <b>_INSERT REPO LINK HERE_</b> in your browser.
+7) Navigate to this model's repository at https://github.com/lpruett/2DHybridABMHeparinMAP in your browser.
 8) To clone this repository, click on the green "Code" button then select "Open with GitHub Desktop".  You GitHub Desktop will open.  If your browser asks for permissions, allow them.
-9) Once GitHub Desktop opens, edit the Local Path to where you would like the library will be installed on your computer. It will be in a file called "AngiogenesisModel". _Remember this location for set-up_.
+9) Once GitHub Desktop opens, edit the Local Path to where you would like the library will be installed on your computer. It will be in a file called "2DHybridABMHeparinMAP". _Remember this location for set-up_.
 
 <b>Set-up:</b>
 
-1) Navigate to the file were the HAL library was cloned to, called "HAL-master". Locate the file where the model was cloned to, called "AngiogenesisModel".
-2) Inside "HAL-master", find the folder called "HAL" and the file called "HalColorSchemes.jar". Copy both into the folder called "AngiogenesisModel".
-3) Open IntelliJ. If this is your first time opening IntelliJ, press _ctrl + shift + a_ to bring up the search menu. Find "Import Project from Existing Sources" by searching "existing". Then, select the "AngiogenesisModel" folder. Else, if you are currently in another project and not on the IntelliJ "recent projects page", select File then close project to be brought back to the project selection window before completing this step.
+1) Navigate to the file were the HAL library was cloned to, called "HAL-master". Locate the file where the model was cloned to, called "2DHybridABMHeparinMAP".
+2) Inside "HAL-master", find the folder called "HAL" and the file called "HalColorSchemes.jar". Copy both into the folder called "2DHybridABMHeparinMAP".
+3) Open IntelliJ. If this is your first time opening IntelliJ, press _ctrl + shift + a_ to bring up the search menu. Find "Import Project from Existing Sources" by searching "existing". Then, select the "2DHybridABMHeparinMAP" folder. Else, if you are currently in another project and not on the IntelliJ "recent projects page", select File then close project to be brought back to the project selection window before completing this step.
 4) Click accept for default options, <b>stopping when you see "Please select project SDK"</b>. <br> _Note_: If IntelliJ warns about overriding the .idea file, select OK.
 5) When you reach "Please select project SDK", click the plus button and download either an SDK with version number 15 or 16.  Once installation finishes, select that new JDK (e.g openjdk-15) in the left window.
 6) Click next/create/accept for following options until set-up completes.
-7) After loading, you will be greeted by the ReadMe. Find the project file tree in the left window.  Select the file "SproutingAssay", then open the file "sproutGrid".
+7) After loading, you will be greeted by the README. Find the project file tree in the left window.  Select the file "SproutingAssay", then open the file "sproutGrid".
 8) Navigate to "File" in the top left of the screen, followed by "Project Structure", then "libraries".
 9) Select the minus button to delete all the current libraries. Click OK on all warnings.
-10) Select the plus sign, then select Java. Navigate to the file "lib" located inside the folder "HAL", which itself is inside our "AngiogenesisModel" folder.  After selecting "lib", select OK, then OK on the popup window if one shows.
-11) Once again, select the plus sign, then select Java. Navigate to the file called "HalColorSchemes.jar" located directly inside the "AngiogenesisModel " folder. After selecting "HalColorSchemes.jar", select OK.  On the following popup box, select "Jar Directory", then OK. <br>
+10) Select the plus sign, then select Java. Navigate to the file "lib" located inside the folder "HAL", which itself is inside our "2DHybridABMHeparinMAP" folder.  After selecting "lib", select OK, then OK on the popup window if one shows.
+11) Once again, select the plus sign, then select Java. Navigate to the file called "HalColorSchemes.jar" located directly inside the "2DHybridABMHeparinMAP " folder. After selecting "HalColorSchemes.jar", select OK.  On the following popup box, select "Jar Directory", then OK. <br>
    _Note_: this may seem like you just added the libraries you removed, but these steps eliminate an error with programs that use the OpenGL3DWindow class.
 12) Select OK on the "Project Structure" window.
 13) Click "Add Configuration" located in the top right corner between the hammer button and the play button.
 14) In the opened window, click the plus sign in the upper left corner to open a dropdown menu. Select application.
-15) Name the application (suggested, Wound Grid).
+15) Name the application (suggested: SproutingAssay).
 16) Under the "Build and Run" header, select the main class called "sproutGrid" by clicking on the file icon at the end of the first input box and searching for "sproutGrid".
 17) Select OK. Now the program can be run by selecting the play button in the top right corner. <br>
 _Note_: If an error occurs, carefully complete steps 10 and 11 once more and try running the program again.
